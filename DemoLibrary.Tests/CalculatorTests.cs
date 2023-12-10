@@ -10,12 +10,7 @@ namespace DemoLibrary.Tests
         [InlineData(double.MaxValue, 5, double.MaxValue)]
         public void Add_SimpleValuesShouldCalculate(double x, double y, double expected)
         {
-            // Arrange
-
-            // Act
             double actual = Calculator.Add(x, y);
-
-            // Assert
             Assert.Equal(expected, actual);
         }
 
