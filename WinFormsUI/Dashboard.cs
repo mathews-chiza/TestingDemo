@@ -23,7 +23,7 @@ namespace WinFormsUI
         {
             double sum = Calculator.Add(((double)firstNumber.Value), ((double)secondNumber.Value));
             result.Text = sum.ToString();
-            this.ClearCalculatorInputs();
+            ClearCalculatorInputs();
         }
 
         private void subtract_Click(object sender, EventArgs e)
